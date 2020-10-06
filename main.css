@@ -1,0 +1,364 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #000000;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(img/first-bj.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 65px;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 68px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 35px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.titles_first {
+	font-family: Droid Serif;
+	font-style: italic;
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 205px;
+}
+
+h1 {
+	font-family: Montserrat;
+	font-weight: : bold;
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.button {
+	background: #fed136;
+	color: #fff;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 18px;
+	/*margin-top: 65px;*/
+}
+
+.title {
+	padding-top: 115px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.services {
+	padding-top: 80px;
+}
+
+.services_item {
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.services_item:last-child {
+	float: right;
+}
+
+.services_item:nth-child(2) {
+	margin-left: 65px;
+}
+
+#services {
+	padding-bottom: 120px;
+}
+
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+
+.works {
+
+}
+
+.works_item {
+	background: #ffffff;
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.works_item p {
+	color: #777777;
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 30px;
+	margin-top: -20px;
+}
+
+.works_item:nth-child(2) {
+	margin-left: 20px;
+}
+
+.works_item:nth-child(3) {
+	float: right;
+}
+
+.works_item:nth-child(4) {
+	float: left;
+}
+
+.works_item:nth-child(5) {
+	margin-left: 20px;
+}
+
+.works_item:nth-child(6) {
+	float: right;
+}
+
+.about {
+	
+}
+
+#about {
+	padding-bottom: 120px;
+}
+
+.about_item_1 h3 {
+	text-transform: uppercase;
+}
+
+.about_item_1 div {
+	margin-right: 600px;
+	text-align: right;
+	margin-top: -190px;
+}
+
+.about_item_1 h4 {
+	margin-top: -15px;
+}
+
+.about_item_1 p {
+	color: #777777;
+	font-size: 14px;
+	margin-top: -10px;
+	line-height: 1.55em;
+}
+
+.about_item_1 figure {
+	margin-top: 100px;
+	padding-left: 340px;
+}
+
+.about_item_1 img {
+	border: 5px solid #f1f1f1;
+	border-radius: 100%;
+}
+
+
+
+.about_item_2 h3 {
+	text-transform: uppercase;
+}
+
+.about_item_2 figure {
+	margin-top: 100px;
+	padding-left: 340px;
+}
+
+.about_item_2 img {
+	border: 5px solid #f1f1f1;
+	border-radius: 100%;
+}
+
+.about_item_2 div {
+	margin-left: 600px;
+	text-align: left;
+	margin-top: -190px;
+}
+
+.about_item_2 h4 {
+	margin-top: -15px;
+}
+
+.about_item_2 p {
+	color: #777777;
+	font-size: 14px;
+	margin-top: -10px;
+	line-height: 1.55em;
+}
+
+#team {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+
+.team {
+	padding-top: 80px;
+}
+
+.team_item {
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.team h3 {
+	font-size: 18px;
+}
+
+.team p {
+	color: #777777;
+	font-size: 14px;
+	margin-top: -10px;
+}
+
+.team_item:nth-child(3) {
+	float: right;
+}
+
+.team_item:nth-child(2) {
+	margin-left: 65px;
+}
+
+.team_text {
+	color: #777777;
+	font-size: 14px;
+	margin-top: 400px;
+	text-align: center;
+}
+
+.partners {
+	background: #ffffff;
+	padding-bottom: 70px;
+}
+
+.partner {
+	padding-top: 50px;
+	padding-left: 150px;
+	/*padding-bottom: 50px;*/
+}
+
+.partner img {
+	margin-right: 30px
+}
+
+#contact_us {
+	background: url(img/second-bj.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+#contact_us h2 {
+	color: #fff;
+}
+
+.contacts {
+	display: flex;
+}
+
+.input_fields {
+	margin: 4%;
+}
+
+ input {
+	width: 400px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.mes textarea {
+	padding: 10px 10px;
+	margin-top: 58px;
+	width: 390px;
+	height: 187px;
+}
+
+.foter {
+	background: #ffffff;
+	padding-bottom: 30px;
+}
+
+.footer_item img{
+	padding-top: 40px;
+	padding-left: 10px;
+}
+
